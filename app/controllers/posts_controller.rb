@@ -17,6 +17,7 @@ class PostsController < ApplicationController
 
 		respond_with post
 	end
+	
 	private
 	def post_params
 		params.require(:post).permit(:link, :title)
