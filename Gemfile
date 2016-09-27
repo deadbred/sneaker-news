@@ -19,6 +19,8 @@ gem "responders"
 
 gem 'angular_rails_csrf'
 
+gem 'devise', '~> 4.2'
+
 group :development, :test do
   gem 'byebug'
 end
